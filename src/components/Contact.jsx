@@ -164,7 +164,7 @@ const Contact = () => {
                   </p>
                 </motion.div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-6">
+                <form onSubmit={handleSubmit} className="space-y-6" netlify>
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium mb-2">
                       Your Name
